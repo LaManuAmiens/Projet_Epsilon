@@ -1,0 +1,25 @@
+#entete{
+  margin-top: 150px;
+  background-color: #ff3636;
+  height: 400px;
+  margin-bottom: 50px;
+}
+#entete2{
+  background-color: #7fff36;
+  height: 400px;
+}
+#entete_pic1{
+  background-color: #36ffa7;
+  /* A enlever quand on inserera la card */
+  height: 200px;
+}
+#entete_pic2{
+  background-color: #36b0ff;
+  /* A enlever quand on inserera la card */
+  height: 200px;
+}
+#entete_pic3{
+  background-color: #ed36ff;
+  /* A enlever quand on inserera la card */
+  height: 200px;
+}
