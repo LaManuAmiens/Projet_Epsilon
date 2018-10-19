@@ -1,6 +1,11 @@
+/* partie mickael */
 #logo {
   vertical-align:middle;
   border-radius: 20%;
+}
+#logo1 {
+  margin-left: 10%;
+  border-radius: 30%;
 }
 #header {
   position: absolute;
@@ -16,6 +21,9 @@
 #colorhaeder {
   background-image: url(https://yese69.com/wp-content/uploads/data/2017/12/12/gorgerous-chrome-wallpaper-1920-WTG200221583.jpg);
   background-size: cover;
+}
+#cart{
+margin-left: 20%;
 }
 #test {
   font-family:"times new roman", times, serif;
@@ -63,9 +71,8 @@ body {font-family: Verdana, sans-serif; margin:0}
 /* Slides */
 .mySlides {
   display: none;
-  padding: 30px;
+  padding: 15px;
   background-position: center;
-
   text-align: center;
 }
 /* Next & previous buttons */
@@ -75,7 +82,7 @@ body {font-family: Verdana, sans-serif; margin:0}
   top: 50%;
   width: auto;
   margin-top: -30px;
-  padding: 10px;
+  padding: 8px;
   color: #888;
   font-weight: bold;
   font-size: 20px;
@@ -96,7 +103,7 @@ body {font-family: Verdana, sans-serif; margin:0}
 /* The dot/bullet/indicator container */
 .dot-container {
   text-align: center;
-  padding: 10px;
+  padding: 5px;
   background: #ddd;
 }
 /* The dots/bullets/indicators */
@@ -114,7 +121,5 @@ body {font-family: Verdana, sans-serif; margin:0}
 .active, .dot:hover {
   background-color: #717171;
 }
-/* Add an italic font style to all quotes */
-q {font-style: italic;}
-/* Add a blue color to the author */
-.author {color: cornflowerblue;}
+
+/* fin parite mickael */
