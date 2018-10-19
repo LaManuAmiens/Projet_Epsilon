@@ -1,3 +1,4 @@
+
 function openfolder() {
   var a;
   a = document.getElementById("div1");
@@ -39,7 +40,7 @@ function currentSlide(n) {
 }
 function showSlides(n) {
   var i;
-  var slides = document.getElementsByClassName("mySlides");
+xw  var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}
   if (n < 1) {slideIndex = slides.length}
@@ -52,3 +53,39 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 }
+
+// function numberGen (on page load){
+// var randomNumber = Math.floor(Math.random()*15 + 1);
+//    if (randomNumber == 1) {
+//     display link produit at div;
+//    } else if (randomNumber == 2) {
+//       display link produit at div
+//    } else if (randomNumber == 3) {
+//       display link produit at div
+//    } else if (randomNumber == 4) {
+//       display link produit at div
+//    } else if (randomNumber == 5) {
+//       display link produit at div
+//    } else if (randomNumber == 6) {
+//       display link produit at div
+//    } else if (randomNumber == 7) {
+//       display link produit at div
+//    } else if (randomNumber == 8) {
+//       display link produit at div
+//    } else if (randomNumber == 9) {
+//       display link produit at div;
+//    } else if (randomNumber == 10) {
+//       display link produit at div;
+//    } else if (randomNumber == 11) {
+//       display link produit at div;
+//    } else if (randomNumber == 12) {
+//       display link produit at div;
+//    } else if (randomNumber == 13) {
+//       display link produit at div;
+//    } else if (randomNumber == 14) {
+//       display link produit at div;
+//    } else {
+//      display link produit at div;
+// }
+// }
+
