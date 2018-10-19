@@ -1,3 +1,29 @@
+var image = new Array ();
+image[0] = "/path/to/image1.jpg";
+image[1] = "/path/to/image2.jpg";
+image[2] = "/path/to/image3.jpg";
+image[3] = "/path/to/image4.jpg";
+image[4] = "/path/to/image1.jpg";
+image[5] = "/path/to/image2.jpg";
+image[6] = "/path/to/image3.jpg";
+image[7] = "/path/to/image4.jpg";
+image[8] = "/path/to/image1.jpg";
+image[9] = "/path/to/image2.jpg";
+image[10] = "/path/to/image3.jpg";
+image[11] = "/path/to/image4.jpg";
+image[12] = "/path/to/image1.jpg";
+image[13] = "/path/to/image2.jpg";
+image[14] = "/path/to/image3.jpg";
+var size = image.length
+var x = Math.floor(size*Math.random())
+
+$('#randomImages').attr('src',image[x]);
+
+
+
+
+
+
 // function numberGen (on page load){
 // var randomNumber = Math.floor(Math.random()*15 + 1);
 //    if (randomNumber == 1) {
