@@ -1,3 +1,130 @@
+
+/* partie mickael */
+#logo {
+  vertical-align:middle;
+  border-radius: 20%;
+}
+#logo1 {
+  margin-left: 10%;
+  border-radius: 30%;
+}
+#header {
+  position: absolute;
+}
+.navbar-brand span {
+  font-size:2rem;
+  line-height:1.2;
+  font-weight: 200;
+  display:inline-block;
+  vertical-align:middle;
+  padding:0 0 0 20px;
+}
+#colorhaeder {
+  background-image: url(https://yese69.com/wp-content/uploads/data/2017/12/12/gorgerous-chrome-wallpaper-1920-WTG200221583.jpg);
+  background-size: cover;
+}
+#cart{
+margin-left: 20%;
+}
+#test {
+  font-family:"times new roman", times, serif;
+}
+.navbar-brand b {
+  display:block;
+  font-size:50%;
+  line-height:1;
+}
+.navbar-nav {
+  margin-left: 15%;
+  font-size: 200%;
+}
+#collapsibleNavbar {
+  /* text-align: center; */
+}
+#footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-image: url(https://yese69.com/wp-content/uploads/data/2017/12/12/gorgerous-chrome-wallpaper-1920-WTG200221583.jpg);
+  color: white;
+  text-align: center;
+}
+#recherche {
+  margin-right: 5%;
+}
+{box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+#pub {
+  background-image: url(https://www.autosignaletique.fr/media/catalog/product/cache/1/image/650x/040ec09b1e35df139433887a97daa66f/b/a/banderole-pneuspromo.gif);
+}
+#pub1 {
+  background-image: url(http://www.banderole-promo.com/temas/ban/images/promotions/promotion_50.jpg);
+}
+#pub2 {
+  background-image: url(https://media.cdnws.com/_i/22903/cs400-114/1/15/banderole-promotion.jpeg);
+}
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 15px;
+  background-position: center;
+  text-align: center;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 8px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: #fff;
+}
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 5px;
+  background: #ddd;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #F00D0D;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* fin parite mickael */
+
 #entete{
   margin-top: 150px;
   background-color: #ff3636;
@@ -23,3 +150,4 @@
   /* A enlever quand on inserera la card */
   height: 200px;
 }
+
